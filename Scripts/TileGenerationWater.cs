@@ -62,7 +62,6 @@ public class TileGenerationWater : MonoBehaviour
             for (int y = 0; y < height; y++)
             {
                 if (terrainMap[x, y] == 1)
-                    //MinorMap.SetTile(new Vector3Int(-x + width / 2, -y + height / 2, 0), MinorTile);
                     MajorMap.SetTile(new Vector3Int(-x + width / 2, -y + height / 2, 0), MajorTile); //add more?
             }
         }
