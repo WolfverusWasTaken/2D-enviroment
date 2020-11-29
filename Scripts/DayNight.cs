@@ -7,9 +7,9 @@ public class DayNight : MonoBehaviour
     [Range(0, 10)]
     public float MaxLightLevel;
     
-    private int dayLength;   //in minutes
+    private int dayLength;
     private int dayStart;
-    private int nightStart;   //also in minutes
+    private int nightStart;
     private int currentTime;
     public float cycleSpeed;
     private bool isDay;
@@ -22,22 +22,12 @@ public class DayNight : MonoBehaviour
 
     private double lightincrement;
 
-    // Day and Night Script for 2d,
-    // Unity needs one empty GameObject (earth) and one Light (sun)
-    // make the sun a child of the earth
-    // reset the earth position to 0,0,0 and move the sun to -200,0,0
-    // attach script to sun
-    // add sun and earth to script publics
-    // set sun to directional light and y angle to 90
-
-
     void Start()
     {
         dayLength = 1440;
         dayStart = 300;
         nightStart = 1200;
         currentTime = 720;
-        //MaxLightLevel = 1.5f;
         StartCoroutine(TimeOfDay());
         earth = gameObject.transform.parent.gameObject;
     }
@@ -72,7 +62,7 @@ public class DayNight : MonoBehaviour
                 sun.intensity = sun.intensity + (MaxLightLevel - 0.0f / (1.0f / cycleSpeed)) * 0.001f;
                 playervision.range = playervision.range - 0.02f;
 
-                if (sun.intensity >= MaxLightLevel) //Max light level
+                if (sun.intensity >= MaxLightLevel)
                 {
                     sun.intensity = MaxLightLevel;
                 }
