@@ -32,10 +32,6 @@ public class NewTemp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //ParticleSystem.MainModule Cloud = GetComponent<ParticleSystem>().Cloud;
-        //Cloud.startColor = new Color(106, 106, 106, 255);
-        //Cloud.GetComponent<ParticleSystem>().startColor = new Color(255, 255, 255, 255);
-        //Rain.GetComponent<ParticleSystem>().enableEmission = false;
         avgtemp = (minTemp + maxTemp) / 2;
         humidgain = true;
         //humidcoold = false;
@@ -89,7 +85,6 @@ public class NewTemp : MonoBehaviour
             {
                 humidity -= 0.01;
                 Rain.GetComponent<ParticleSystem>().enableEmission = true;
-                //Cloud.GetComponent<ParticleSystem>().startColor = new Color(106, 106, 106, 255); //gray color
 
                 if (humidity <= 0.05)
                 {
@@ -97,7 +92,6 @@ public class NewTemp : MonoBehaviour
                     humidgain = true;
                     Rain.GetComponent<ParticleSystem>().Stop();
                     Rain.GetComponent<ParticleSystem>().enableEmission = false;
-                    //Cloud.GetComponent<ParticleSystem>().startColor = new Color(255, 255, 255, 255); //white color
                 }
             }
 
