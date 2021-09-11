@@ -26,3 +26,4 @@ Animal Spawning and Despawning. Added a simple animal movement and pathfinding c
 
 ![Environment Generation Day 7](https://user-images.githubusercontent.com/75195899/132948952-e27b11ed-8c53-483a-9f44-e174ea931cfb.jpeg)
 
+[Game assets used and taken from RIMWORLD. Used for demonstration purposes only.]
