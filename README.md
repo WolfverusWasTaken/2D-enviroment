@@ -20,14 +20,16 @@ Using Perlin Noise and Cellular automata to create the environment such as dirt,
 
 ![Environment Generation Day 2-2](https://user-images.githubusercontent.com/75195899/132948936-c5aa7bf7-c422-4c87-bb8e-cc3d63280c5f.jpeg)
 
+### Day-Night Cycle, Clouds, Rainfall, Humidity and Temperature.
+Day-Night cycle affects the temperature. Temperature affects the Humidity in the air and the Humidity affects the how often in rains!
+
 ![Environment Generation Day 3-1](https://user-images.githubusercontent.com/75195899/132948939-a5cc451d-0d58-43b9-b434-747ae7c7f30f.jpeg)
 
 ![Environment Generation Day 3-2](https://user-images.githubusercontent.com/75195899/132948943-8e2e7224-0905-474e-9afc-97229c3dd496.jpeg)
 
-### Day-Night Cycle, Clouds, Rainfall, Humidity and Temperature.
-Day-Night cycle affects the temperature. Temperature affects the Humidity in the air and the Humidity affects the how often in rains!
 ![Environment Generation Day 4](https://user-images.githubusercontent.com/75195899/132948946-ff21ca2d-464a-4c56-8208-c26fab734eeb.jpeg)
 
+### Creature Spawning Mechanics
 Animal Spawning and Despawning. Added a simple animal movement and pathfinding code to tie it all together.
 ![Environment Generation Day 5](https://user-images.githubusercontent.com/75195899/132948947-811b6eb7-dca5-424e-9f2f-1343b6efe499.jpeg)
 
@@ -35,7 +37,10 @@ Animal Spawning and Despawning. Added a simple animal movement and pathfinding c
 
 ![Environment Generation Day 7](https://user-images.githubusercontent.com/75195899/132948952-e27b11ed-8c53-483a-9f44-e174ea931cfb.jpeg)
 
+## Disclaimer
 [Game assets used and taken from RIMWORLD. Used for demonstration purposes only.]
+
+This Repository contains the Terrain Generation Framework, Temperature & Humidity Mechanics and Creature Spawning & De-spawning Feature.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
