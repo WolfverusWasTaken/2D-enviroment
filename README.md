@@ -1,7 +1,18 @@
-# 2D-enviroment
+# 2D Terrain Generation
 
-This project was created in Unity. It is a terrain/enviroment generator for a future potential game that I am working on.
+This is a Unity2D terrain Generation Framework that allows quick 2D game environment generation with little to no hassle.
 
+## About/Preview
+This is a work in progress and functioning 2D Terrain Generation Framework, along with a few other scripts that are added to allow beginner developers to quickly start working on Unity2D projects.
+
+The framework mainly works on Unity2D Tilemaps system. It is made by adding layers of each terrain over the other while a small layer of perlin noise is used to affect how terrain's respective structures will be spawned into the map.
+
+![Slide2](https://user-images.githubusercontent.com/75195899/153038566-e4f08af5-7138-414d-b1bf-9a58c8ad9f52.JPG)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Generation Overview
 Using Perlin Noise and Cellular automata to create the environment such as dirt, grass and water. After which, I added nature related items like plants and leaves.
 ![Environment Generation Day 1-1](https://user-images.githubusercontent.com/75195899/132948924-5322f749-ff2d-4a7d-90bc-c8aeb3571763.jpeg)
 
