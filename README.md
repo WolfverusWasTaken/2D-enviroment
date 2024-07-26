@@ -3,7 +3,7 @@
 This is a Unity2D terrain Generation Framework that allows quick 2D game environment generation with little to no hassle.
 
 ## About/Preview
-This is a work in progress and functioning 2D Terrain Generation Framework, along with a few other scripts that are added to allow beginner developers to quickly start working on Unity2D projects.
+This is a functioning 2D Terrain Generation Framework, along with a few other scripts that are added to allow beginner developers to quickly start working on Unity2D projects.
 
 The framework mainly works on Unity2D Tilemaps system. It is made by adding layers of each terrain over the other while a small layer of perlin noise is used to affect how terrain's respective structures will be spawned into the map.
 
